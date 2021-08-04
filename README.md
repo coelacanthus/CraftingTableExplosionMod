@@ -4,18 +4,18 @@
 
 Minecraft Java Edition用のModです。このModは作業台を右クリックした際に爆発を起こすModです。つまり3x3のクラフトが出来なくなります。
 
-## 要件 - Requirements
+## 要件
 
 * Minecraft Java Edition 1.17 or lator
 * [Fabric loader 0.11.6 or later](https://fabricmc.net/use/).
 * [Fabric API 0.36.1+1.17](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
-## 導入 - Installation
+## 導入
 
 1. ランチャーの起動構成で**新しいゲームディレクトリ**で新しい起動構成を作成し、そこにFabricとFabric loaderをインストールして下さい。
 2. crafting-table-explosion-\*.jar を {新しいゲームディレクトリ}/mods にコピーして下さい。
 
-## 設定 - Configuration
+## 設定
 
 Path: {GAME DIRECTORY}\Config\crafting-table-explosion.json
 
