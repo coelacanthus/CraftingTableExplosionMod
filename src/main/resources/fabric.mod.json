@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting-table-explosion-mod",
+  "version": "${version}",
+
+  "name": "Crafting Table Explosion Mod",
+  "description": "This mod makes a crafting table into a bomb. Player becomes unable to craft with 3x3.",
+  "authors": [
+    "M.Sato"
+  ],
+  "contact": {
+    "homepage": "https://coelacanth-soft.com/",
+    "sources": "https://github.com/coelacanthus/CraftingTableExplosionMod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/CraftingTableExplosionMod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.coelacanth_soft.minecraft.mods.CraftingTableExplosionMod"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
